@@ -1,0 +1,23 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js -e js,hbs",
+    "client": "npm run start --prefix public",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "concurrently": "^3.5.1",
+    "express": "^4.16.3",
+    "express-validator": "^5.2.0",
+    "hbs": "^4.0.1",
+    "jsonwebtoken": "^8.2.1",
+    "mysql": "^2.15.0"
+  }
+}

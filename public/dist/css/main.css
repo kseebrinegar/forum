@@ -1,0 +1,7 @@
+body {
+  background: red; }
+  body .header1 {
+    width: 100%;
+    background: purple; }
+    body .header1 p {
+      font-size: 50px; }
